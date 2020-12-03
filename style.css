@@ -76,11 +76,12 @@ header div div:first-of-type {
 header p {
     padding: 2em;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .button {
     width: 60%;
-    margin: 3em auto;
+    margin: 3em auto 0 auto;
     text-align: center;
 }
 
@@ -98,7 +99,7 @@ header p {
 /* RESOURCE: https://codepen.io/bitstarr/pen/XjaJGz  */
 .arrow {
     position: relative;
-    bottom: -2rem;
+    bottom: -10rem;
     left: 50%;
     margin-left: -20px;
     width: 40px;
@@ -137,6 +138,7 @@ header p {
 
 main {
     background-color: #FCFCFC;
+    margin: 0;
 }
 
 .mainContainer {
@@ -146,11 +148,15 @@ main {
     text-align: center;
 }
 
+.intro {
+    margin: 0 0 2em 0;
+}
+
 h2 {
     color: gray;
     font-family: 'Thasadith', sans-serif;
     font-size: 2em;
-    margin: 2em 0 2em 0;
+    padding-top: 3em;
 
 }
 
@@ -166,7 +172,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 15vw;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -193,4 +199,50 @@ h2 {
     font-size: 3em;
     /* display: block; */
 
+}
+
+#filterRichtlijn {
+    width: 60%;
+    margin: 3em auto 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonActive {
+    padding: 1em 2em;
+    color: white;
+    background-color: #67B78F;
+    margin: 0 auto;
+    border-radius: .3em;
+    text-decoration: none;
+    border: 2px solid #67B78F;
+    margin: 0 3em;
+}
+
+.buttonInactive {
+    padding: 1em 2em;
+    color: #67B78F;
+    /* background-color: #67B78F; */
+    margin: 0 auto;
+    border-radius: .3em;
+    text-decoration: none;
+    border: 2px solid #67B78F;
+    margin: 0 3em;
+}
+
+.buttonInactive:hover {
+    padding: 1em 2em;
+    color: white;
+    background-color: #67B78F;
+    margin: 0 auto;
+    border-radius: .3em;
+    text-decoration: none;
+    border: 2px solid #67B78F;
+    margin: 0 3em;
+}
+
+.buttonActive:focus {
+    outline: none;
 }

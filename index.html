@@ -60,30 +60,41 @@
 
     <main>
         <div class="mainContainer">
-            <h2>
-                Bewegen is goed, meer bewegen is beter
-            </h2>
-
+            <div class="intro">
+                <h2>
+                    Bewegen is goed, meer bewegen is beter
+                </h2>
+                <p>hier komt nog een intro</p>
+                <div id="filterRichtlijn">
+                    <div>
+                        <button id="volwassen" class="buttonActive">Volwassenen</button>
+                    </div>
+                    <div>
+                        <button id="kinderen" class="buttonInactive">Kinderen</button>
+                    </div>
+                </div>
+            </div>
             <div class="beweegrichtlijn">
                 <div class="richtlijn">
-                    <div class="circle"><span>150</span>minuten</div>
+                    <div class="circle"><span id="sportWeek">150</span>minuten per week</div>
                     <div>
-                        <p>per week aan matig intensieve inspanning, zoals wandelen en fietsen, verspreid over diverse
+                        <p id="sportWeekInfo">per week aan matig intensieve inspanning, zoals wandelen en fietsen,
+                            verspreid over diverse
                             dagen. Langer, vaker en/of intensiever bewegen geeft extra gezondheidsvoordeel</p>
                     </div>
                 </div>
                 <div class="richtlijn">
-                    <div class="circle"><span>2</span>keer per week</div>
+                    <div class="circle"><span id="spierActiviteit">2</span>keer per week</div>
                     <div>
-                        <p>per week aan matig intensieve inspanning, zoals wandelen en fietsen, verspreid over diverse
-                            dagen. Langer, vaker en/of intensiever bewegen geeft extra gezondheidsvoordeel</p>
+                        <p id="spierActiviteitInfo">Doe minstens tweemaal per week spier- en botversterkende
+                            activiteiten, voor ouderen
+                            gecombineerd met balansoefeningen</p>
                     </div>
                 </div>
                 <div class="richtlijn">
                     <div class="circle">voorkom veel stilzitten</div>
                     <div>
-                        <p>per week aan matig intensieve inspanning, zoals wandelen en fietsen, verspreid over diverse
-                            dagen. Langer, vaker en/of intensiever bewegen geeft extra gezondheidsvoordeel</p>
+                        <p>lorem ipsum</p>
                     </div>
                 </div>
             </div>
@@ -91,5 +102,9 @@
     </main>
 
 </body>
+
+
+<!-- Javascript scripts -->
+<script src="script.js"></script>
 
 </html>
