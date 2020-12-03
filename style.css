@@ -15,6 +15,7 @@ header {
 nav {
     width: 60vw;
     margin: 0 auto;
+    opacity: 0;
 }
 
 nav ul {
