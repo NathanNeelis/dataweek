@@ -230,7 +230,7 @@ h2 {
 .buttonInactive {
     padding: 1em 2em;
     color: #4A4A49;
-    /* background-color: #67B78F; */
+    background-color: #FCFCFC;
     margin: 0 auto;
     border-radius: .3em;
     text-decoration: none;
@@ -351,3 +351,44 @@ h3 {
 .routeInfo {
     width: 40%;
 }
+
+.metWie {
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.metWie .intro h2,
+.metWie .intro p {
+    text-align: center;
+}
+
+.onzeData {
+    background-color: #67B78F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4em 2em;
+}
+
+.onzeData img {
+    height: 10em;
+}
+
+.onzeData h3 {
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
+.onzeData p {
+    margin: 1em 0 0em 0;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* .onzeData div {
+    width: 30%;
+} */
