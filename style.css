@@ -152,8 +152,14 @@ main {
     margin: 0 0 2em 0;
 }
 
+.intro p {
+    width: 50%;
+    margin: 1em auto;
+    color: #4A4A49;
+}
+
 h2 {
-    color: gray;
+    color: #4A4A49;
     font-family: 'Thasadith', sans-serif;
     font-size: 2em;
     padding-top: 3em;
@@ -223,7 +229,7 @@ h2 {
 
 .buttonInactive {
     padding: 1em 2em;
-    color: #67B78F;
+    color: #4A4A49;
     /* background-color: #67B78F; */
     margin: 0 auto;
     border-radius: .3em;
@@ -242,6 +248,7 @@ h2 {
     border: 2px solid #67B78F;
     margin: 0 3em;
 }
+
 
 .buttonActive:focus {
     outline: none;
