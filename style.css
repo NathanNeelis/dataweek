@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-image: url(img/background.jpg);
     height: 100vh;
@@ -47,6 +51,7 @@ header div {
 body {
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
+    background-color: #FCFCFC;
 }
 
 
@@ -139,11 +144,12 @@ header p {
 main {
     background-color: #FCFCFC;
     margin: 0;
+
 }
 
 .mainContainer {
     width: 60vw;
-    height: 90vh;
+    /* height: 90vh; */
     margin: 0 auto;
     text-align: center;
 }
@@ -189,8 +195,8 @@ h2 {
 }
 
 .circle {
-    width: 10vw;
-    height: 10vw;
+    width: 13vw;
+    height: 13vw;
     margin: 3em 1em 1em 1em;
     border: 3px solid white;
     border-radius: 50%;
@@ -390,6 +396,11 @@ h3 {
     font-weight: bold;
 }
 
+
+.intro h2 {
+    margin-top: 2em;
+}
+
 .intro h2 span {
     font-size: 2em;
     color: #67B78F;
@@ -431,4 +442,13 @@ h3 {
 .hardloopStatistieken h3 {
     text-align: center;
     margin: 1em 0 1em 0;
+}
+
+footer {
+    width: 50vw;
+    margin: 0 auto;
+    color: #4A4A49;
+    text-align: center;
+    margin-bottom: 2em;
+
 }
