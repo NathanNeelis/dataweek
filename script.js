@@ -31,3 +31,46 @@ const richtlijnAdults = () => {
 
 adults.addEventListener('click', richtlijnAdults);
 children.addEventListener('click', richtlijnChildren);
+
+
+const routeOne = document.querySelector('#route1');
+const routeTwo = document.querySelector('#route2');
+const routeThree = document.querySelector('#route3');
+const routeFour = document.querySelector('#route4');
+let routeImage = document.querySelector('#imageRoute');
+
+const routeImageOne = 'img/route1.svg';
+const routeImageTwo = 'img/route2.svg';
+const routeImageThree = 'img/route3.svg';
+const routeImageFour = 'img/route4.svg';
+
+
+routeOne.addEventListener('mouseenter', replaceImageOne);
+routeOne.addEventListener('mouseleave', originalImage);
+routeTwo.addEventListener('mouseenter', replaceImageTwo);
+routeTwo.addEventListener('mouseleave', originalImage);
+routeThree.addEventListener('mouseenter', replaceImageThree);
+routeThree.addEventListener('mouseleave', originalImage);
+routeFour.addEventListener('mouseenter', replaceImageFour);
+routeFour.addEventListener('mouseleave', originalImage);
+
+
+function originalImage() {
+    routeImage.src = 'img/mappop.svg'
+}
+
+function replaceImageOne() {
+    routeImage.src = routeImageOne;
+};
+
+function replaceImageTwo() {
+    routeImage.src = routeImageTwo;
+};
+
+function replaceImageThree() {
+    routeImage.src = routeImageThree;
+};
+
+function replaceImageFour() {
+    routeImage.src = routeImageFour;
+};

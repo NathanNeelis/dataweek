@@ -99,7 +99,7 @@ header p {
 /* RESOURCE: https://codepen.io/bitstarr/pen/XjaJGz  */
 .arrow {
     position: relative;
-    bottom: -10rem;
+    bottom: -6rem;
     left: 50%;
     margin-left: -20px;
     width: 40px;
@@ -162,7 +162,7 @@ h2 {
     color: #4A4A49;
     font-family: 'Thasadith', sans-serif;
     font-size: 2em;
-    padding-top: 3em;
+    padding-top: 1em;
 
 }
 
@@ -252,4 +252,102 @@ h2 {
 
 .buttonActive:focus {
     outline: none;
+}
+
+.watKanJeDoen {
+    width: 60vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.watKanJeDoen .intro h2,
+.watKanJeDoen .intro p {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.2em;
+    /* padding-top: 1em; */
+}
+
+.routeInfo {
+    padding: 1em;
+}
+
+#route1 div,
+#route2 div,
+#route3 div,
+#route4 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .75em;
+}
+
+#route1 p,
+#route2 p,
+#route3 p,
+#route4 p {
+    margin-left: 1.5em;
+
+}
+
+
+#route1Kleur {
+    width: 1em;
+    height: 1em;
+    background-color: #C9E1B6;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+#route2Kleur {
+    width: 1em;
+    height: 1em;
+    background-color: #B4E091;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+#route3Kleur {
+    width: 1em;
+    height: 1em;
+    background-color: #9BD56D;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+#route4Kleur {
+    width: 1em;
+    height: 1em;
+    background-color: #8FD856;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+.routeInfo p {
+    color: white;
+}
+
+.routes {
+    background-color: #67B78F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#routeMap {
+    width: 60%;
+    /* height: 50vh; */
+    padding: 2em;
+    /* background-image: url(img/mappop.svg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.routeInfo {
+    width: 40%;
 }
